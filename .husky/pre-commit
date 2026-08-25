@@ -1,0 +1,4 @@
+npx tsc --noEmit
+npx eslint .
+npx prettier --check .
+npx vitest run
