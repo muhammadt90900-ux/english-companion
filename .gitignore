@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+next-env.d.ts
+
+# TypeScript incremental build cache — regenerated on every typecheck,
+# and large. Nothing needs it in version control.
+*.tsbuildinfo
+
+# Environment — .env holds real values; .env.example is the committed
+# template and is deliberately NOT ignored.
+.env
+.env.local
+.env.*.local
+
+# SQLite database and backups. This is the important one: the whole
+# point of this app is that conversation history stays on your machine,
+# and a committed .db file pushes every conversation you have ever had
+# to GitHub. Backups are the same data in a different shape.
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

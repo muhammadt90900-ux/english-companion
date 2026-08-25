@@ -1,0 +1,5 @@
+node_modules
+.next
+data
+src/db/migrations
+package-lock.json
